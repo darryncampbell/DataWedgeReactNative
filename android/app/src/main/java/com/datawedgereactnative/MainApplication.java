@@ -1,4 +1,4 @@
-package com.datawedgereactnative;
+package com.datawedgereactnative.demo;
 
 import android.app.Application;
 

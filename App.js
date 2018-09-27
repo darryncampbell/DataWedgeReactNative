@@ -187,7 +187,7 @@ export default class App extends Component<Props> {
             "PARAM_LIST": {}
         },
         "APP_LIST": [{
-            "PACKAGE_NAME": "com.datawedgereactnative",
+            "PACKAGE_NAME": "com.datawedgereactnative.demo",
             "ACTIVITY_LIST": ["*"]
         }]
     };

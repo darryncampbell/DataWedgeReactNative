@@ -1,4 +1,4 @@
-package com.datawedgereactnative;
+package com.datawedgereactnative.demo;
 
 import com.facebook.react.ReactActivity;
 

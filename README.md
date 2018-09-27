@@ -1,5 +1,3 @@
-# Zebra ReactNative Demo
-
 *This plugin is provided without guarantee or warranty*
 =========================================================
 

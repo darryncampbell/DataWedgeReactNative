@@ -5,7 +5,7 @@
 
 This application shows how DataWedge functionality can be seamlessly integrated into your new or existing ReactNative applications using the 3rd party react-native-datawedge-intents module.
 
-![Application](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/work_in_progress/screenshots/application_01.png)
+![Application](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/master/screenshots/application_01.png)
 
 ## DataWedge Intent Interface
 DataWedge is a value-add of all Zebra Technologies devices (formally Symbol and Motorola Solutions) that allows barcode capture and configuration without the need to write any code.  This application will demonstrate how to use Android intents to add DataWedge scanning functionality to your application
@@ -24,11 +24,11 @@ If your device is running Datawedge 6.4 or higher you will see no warning messag
 ---
 You will see this message if you are running a version of Datawedge prior to 6.3:
 
-![Pre-6.3 warning message](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/work_in_progress/screenshots/pre_6.3_message.png)
+![Pre-6.3 warning message](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/master/screenshots/pre_6.3_message.png)
 
 And this message if you are running Datawedge 6.3:
 
-![6.3 warning message](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/work_in_progress/screenshots/6.3_message.png)
+![6.3 warning message](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/master/screenshots/6.3_message.png)
 
 In either case, ensure you have a Datawedge profile on the device.  You can do this by:
 - Launching the Datawedge application
@@ -37,9 +37,9 @@ In either case, ensure you have a Datawedge profile on the device.  You can do t
   - Associate the profile with com.datawedgereactnative.demo, with * Activities (Note: You need to have previously run the application on the device to complete this step)
   - Configure the intent output plugin to send broadcast intents to `com.zebra.reactnativedemo.ACTION` (Note: the action changed with the update made in March 2018)
   
-![Profile configuration 1](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/work_in_progress/screenshots/datawedge_associated_apps.png)
+![Profile configuration 1](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/master/screenshots/datawedge_associated_apps.png)
 
-![Profile configuration 2](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/work_in_progress/screenshots/datawedge_02.png)
+![Profile configuration 2](https://raw.githubusercontent.com/darryncampbell/DataWedgeReactNative/master/screenshots/datawedge_02.png)
 
 ## Use
 There are two sections to the UI, at the top you can configure scanning attributes such as choosing the enabled decoders.  Note that some configuration features will require a minimum version of Datawedge.  You can initiate a soft trigger scan using the yellow button.

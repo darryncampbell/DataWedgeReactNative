@@ -47,7 +47,6 @@ export default class App extends Component<Props> {
 
   _onPressScanButton()
   {
-    //DataWedgeIntents.sendIntent(DataWedgeIntents.ACTION_SOFTSCANTRIGGER,DataWedgeIntents.TOGGLE_SCANNING);
     this.sendCommand("com.symbol.datawedge.api.SOFT_SCAN_TRIGGER", 'TOGGLE_SCANNING');
   }
 

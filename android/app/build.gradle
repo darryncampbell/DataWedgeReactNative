@@ -128,7 +128,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.tempproject"
+        applicationId "com.datawedgereactnative.demo"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -188,6 +188,8 @@ android {
 }
 
 dependencies {
+    compile project(':react-native-datawedge-intents')
+    compile project(':react-native-vector-icons')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"  // From node_modules
 

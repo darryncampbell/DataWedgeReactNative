@@ -3,17 +3,20 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
     "react-native-datawedge-intents": "^0.1.0",
     "react-native-elements": "^0.19.1",
-    "react-native-vector-icons": "^5.0.0"
+    "react-native-vector-icons": "^5.0.0",
     "react": "16.8.6",
     "react-native": "0.60.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
     "metro-react-native-babel-preset": "0.54.1",

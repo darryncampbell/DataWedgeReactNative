@@ -8,11 +8,11 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "react-native-datawedge-intents": "^0.1.0",
-    "react-native-elements": "^0.19.1",
-    "react-native-vector-icons": "^5.0.0",
     "react": "16.8.6",
-    "react-native": "0.60.5"
+    "react-native": "0.60.5",
+    "react-native-datawedge-intents": "^0.1.2",
+    "react-native-elements": "^1.2.0",
+    "react-native-vector-icons": "^6.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",

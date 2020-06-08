@@ -16,6 +16,8 @@ DataWedge is a value-add of all Zebra Technologies devices (formally Symbol and 
 * npm install
 * react-native run-android
 
+**If you receive `Task :app:validateSigningDebug FAILED` then please see [this StackOverflow post](https://stackoverflow.com/questions/57104357/react-native-task-appvalidatesigningdebug-failed)**
+
 ## Setup
 Any Zebra mobile computer running Android which supports Datawedge should work with this sample but the complexity of setup will depend on your Datawedge version 
 

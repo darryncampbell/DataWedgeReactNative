@@ -36,13 +36,18 @@ export default class App extends Component<Props> {
     //  {decoder: 'label', timeAtDecode: 'time', data: '321'}, 
     //  {decoder: 'label', timeAtDecode: 'time', data: '123'}]; 
     this.sendCommandResult = "false";
-    this.broadcastReceiverHandler = (intent) =>
-    {
-      this.broadcastReceiver(intent);
-    }
-    DeviceEventEmitter.addListener('datawedge_broadcast_intent', this.broadcastReceiverHandler);
+  }
+
+  componentDidMount()
+  {
+    this.state.deviceEmitterSubscription = DeviceEventEmitter.addListener('datawedge_broadcast_intent', (intent) => {this.broadcastReceiver(intent)});
     this.registerBroadcastReceiver();
     this.determineVersion();
+  }
+
+  componentWillUnmount()
+  {
+    this.state.deviceEmitterSubscription.remove();
   }
 
   _onPressScanButton()

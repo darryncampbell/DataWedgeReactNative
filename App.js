@@ -123,11 +123,11 @@ export default class App extends Component<Props> {
         console.log("Datawedge version: " + datawedgeVersion);
 
         //  Fire events sequentially so the application can gracefully degrade the functionality available on earlier DW versions
-        if (datawedgeVersion >= "6.3")
+        if (datawedgeVersion >= "06.3")
             this.datawedge63();
-        if (datawedgeVersion >= "6.4")
+        if (datawedgeVersion >= "06.4")
             this.datawedge64();
-        if (datawedgeVersion >= "6.5")
+        if (datawedgeVersion >= "06.5")
             this.datawedge65();
 
         this.setState(this.state);
